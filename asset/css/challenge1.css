@@ -1,0 +1,16 @@
+body{
+    max-width:  70%;
+    margin: auto;
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+.container{
+    background-color: wheat;
+    padding: 20px;
+}
+ul li{
+    margin: 10px;
+    padding: 5px;
+}

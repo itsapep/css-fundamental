@@ -1,0 +1,200 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" href="resume.css"> -->
+    <title>CV Yurham Afif</title>
+    <style>
+        /* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	/* background-color: rgb(126, 219, 231); */
+    background-color: rgb(201, 217, 219);
+	padding: 20px;
+    border-left: 2px solid;
+}
+.right {
+	position: initial;
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+    border-right: 2px solid;
+    width: 450px;
+
+}
+.name{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .organisation {
+	margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.image{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.profile-img{
+    border-radius: 50%;
+    object-fit: cover;
+    width:200px;
+    height:200px;
+}
+.linkedin-img{
+    width:20px;
+    height:20px;
+}
+.linkedin-img{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+button{
+    padding:0 20 0 20;
+    width:220px;
+    height:35px;
+    display: flex;
+	justify-content: space-around;
+	align-items:center;
+    background-color: rgb(201, 217, 219);
+}
+h2 {
+    font-size: 15pt;
+    border-bottom: 2px solid;
+    border-color:  rgb(45, 70, 172);
+    margin-bottom: 5px;
+}
+h3, p, li{
+    font-size: 10pt;
+}
+.date,.name, h2{
+    color: rgb(45, 70, 172);
+}
+
+    </style>
+</head>
+
+<body>
+	<div class="full">
+		<div class="left">
+			<div class="image">
+				<img src="Yurham putih dasi.jpg" alt="profile-img" class="profile-img">
+			</div>
+			<div class="Contact">
+				<h2>Contact</h2>
+                <p><b>Email:</p>
+                <p></b>yurhamafif.edu@gmail.com</p>
+                <p><b>Mobile:</p>
+                <p></b>089666085459</p>
+			</div>
+			<div class="Skills">
+				<h2>Skills</h2>
+				<ul>
+					<li>Programming Languages :
+					Python, R, C++</li>
+					<li>Frontend : HTML5, CSS3,
+					JavaScript, React</li>
+					<li>Backend : Golang</li>
+				</ul>
+			</div>
+			<div class="Language">
+				<h2>Language</h2>
+				<ul>
+					<li>English</li>
+					<li>Indonesian</li>
+				</ul>
+			</div>
+			<div class="Hobbies">
+				<h2>Hobbies</h2>
+				<ul>
+					<li>Reading</li>
+					<li>Cycling</li>
+				</ul>
+			</div>
+            <form action="https://www.linkedin.com/in/yrhamaf" class="linkedin-btn">
+                <button type="submit">
+                    <img src="https://www.freepnglogos.com/uploads/linkedin-basic-round-social-logo-png-13.png" alt="linkedin" class="linkedin-img">
+                    <p>LinkedIn</p>
+                </button>
+            </form>
+		</div>
+		<div class="right">
+			<div class="name">
+				<h1>Yurham Afif</h1>
+			</div>
+			<div class="title">
+                <p>Web Developer</p>
+			</div>
+			<div class="Summary">
+				<h2>Summary</h2>
+                <p>I am an Engineering Physics ITS graduate student looking for opportunities in organisation system & plant management, material management, and analytics with a background in data science and engineering. Actively doing social work and learn, I have worked on volunteering organisations for 2 years ongoing, joined online courses and experienced full-stack engineering training for 3 month ongoing.</p>
+            </div>
+			<div class="Experience">
+				<h2>Experience</h2>
+				<h3>Sinarmas Mining - <i>IT Development Program</i></h3>
+                <p class="date">May 2022 - Present</p>
+                <ul>
+					<li>Actively join training in full-stack engineer program</li>
+					<li>Learned Golang Fundamental, PostgreSQL Database, Golang with DB, Golang REST API, etc.</li>
+				</ul>
+                <br>
+				<h3>INALYST Indonesia - <i>Data Analyst Intern</i></h3>
+                <p class="date">January 2022 - January 2022</p>
+                <ul>
+					<li>Understanding big data (1mio list) and the problem (predictive maintenance) given by the client</li>
+					<li>Selecting and cleaning data from the data warehouse using Jupyter notebook, Python, and Apache Pyspark</li>
+				</ul>
+			</div>
+			<div class="Education">
+				<h2>Education</h2>
+				<h3>Institut Teknologi Sepuluh Nopember (ITS) - <i>Engineering Physics</i></h3>
+                <p class="date">August 2017 - March 2022</p>
+                <ul>
+					<li>Undergraduate Program</li>
+                    <li>GPA: 3.41 / 4.00</li>
+                    <li>Undergraduate thesis: The Effect of ZnO/TiO2 Photocatalyst Fraction Variation on Degradation Kinetics of Organic Pollutants in Wastewater Using Fixed-Bed Photocatalytic Reactors</li>
+				</ul>
+			</div>
+			<div class="organisation">
+				<h2>Organisation</h2>
+				<h3>Komunitas Bahagia Bareng - <i>Head of Public Relations and Funding</i></h3>
+                <p class="date">August 2021 - Present</p>
+                <ul>
+                    <p>Actively contributing to the projects of the community targeting the orphans in Surabaya region.</p>
+                    <p>Role:</p>
+                    <li>Coordinate with the central coordinator in information dissemination and fundraising activities</li>
+                    <li>Serving cooperation inquiries with KBB by taking into account the vision and mission of the community</li>
+                    <li>Ensure that 50 volunteers and 12 administrators become the mouthpiece of information regarding KBB activities in collaboration with the media division with a personal approach</li>
+					<li>Enliven the KBB social media commentary column by collaborating with other divisions to contribute together</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+ /* global style */
+ *{
+    text-align: center;
+}
+/* specific style by tags */
+h2{
+    color: peru;
+    font-family: Georgia;
+}
+/* specific class-defined style */
+.h2-version-new{
+    color: rgba(205, 134, 63, 0.464);
+    font-family:'Courier New';
+}
+/* image styling */
+img{
+    width: 50%;
+    height: 50%;
+}
